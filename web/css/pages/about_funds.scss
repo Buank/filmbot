@@ -1,0 +1,423 @@
+.about_content{
+  padding: 50px 0;
+  background-image: linear-gradient(to right, #9479e5, #1ee1d1);
+  position: relative;
+}
+.logo_ind_header{
+  width: 250px;
+  height: 120px;
+}
+.logo_division{
+  margin: 20px 0;
+  font-size: 32px;
+  display: inline-block;
+  font-family: "Roboto Regular",sans-serif;
+  color: white;
+  text-align: center;
+}
+.logo_dis{
+  line-height: 1.78;
+  width: 550px;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "RobotoL",sans-serif;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.ellipse-5{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 80px;
+  left: 25%;
+  z-index: 1;
+}
+.ellipse-6{
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  left: 10%;
+  z-index: 1;
+  bottom: 50px;
+}
+.ellipse-7{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 34%;
+  bottom: 80px;
+  z-index: 1;
+}
+.ellipse-8{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 35%;
+  z-index: 1;
+  top: 80px;
+}
+.ellipse-9{
+  width: 150px;
+  z-index: 1;
+  height: 150px;
+  position: absolute;
+  top: 80px;
+  right: 15%;
+}
+.ellipse-10{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 30%;
+  z-index: 1;
+  bottom: 30px;
+}
+.group-1{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  left: 10%;
+  z-index: 1;
+  top: 80px;
+}
+.group-2{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  left: 35%;
+  z-index: 1;
+  top: 80px;
+}
+.group-3{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+  bottom: 80px;
+}
+.group-4{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  top: 30px;
+}
+.group-5{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  right: 25%;
+  z-index: 1;
+  top: 150px;
+}
+.group-6{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  right: 13%;
+  z-index: 1;
+  bottom: 50px;
+}
+.group-7{
+  width: 150px;
+  height: 4px;
+  position: absolute;
+  right: 36%;
+  z-index: 1;
+  bottom: 30px;
+}
+.help_stream{
+  background-color: #f8f8f8;
+}
+.help_stream_body{
+  padding: 50px 0;
+}
+.help_stream_tittle{
+  color: #161119;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "Roboto Regular",sans-serif;
+}
+.help_stream_text{
+  text-align: center;
+  color: #808080;
+  font-size: 16px;
+  display: inline-block;
+  margin: 20px 0;
+  font-family: "RobotoL",sans-serif;
+}
+
+.how_help{
+  box-shadow: 0 3px 6px 0 rgba(40, 18, 100, 0.06);
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+.tittle_main_steps_help{
+  color: #161119;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "Roboto Regular",sans-serif;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.steps_help{
+  width: 310px;
+}
+.steps_help_img{
+  width: 310px;
+  height: 200px;
+}
+.steps_help_tittle{
+  color: #161119;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "Roboto Regular",sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.steps_help_text{
+  text-align: center;
+  color: #666666;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "RobotoL",sans-serif;
+}
+.help_stream_body{
+  padding: 50px 0;
+}
+.help_stream_body .menu a{
+  color: #808080;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "RobotoL",sans-serif;
+  padding-right: 20px;
+  border-bottom: 1px solid #808080;
+  padding-bottom: 20px;
+}
+.help_stream_body .menu a:last-child{
+  padding-right: 0;
+}
+.help_stream_body .menu .active{
+  color: #161119;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 4px solid #ffce60;
+  padding-bottom: 16px;
+}
+.help_stream_body_tittle{
+  color: #161119;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "Roboto Regular",sans-serif;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.senator{
+  margin-bottom: 30px;
+}
+.senator_img_bd{
+  width: 20%;
+}
+.senator_img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.senator_body{
+  width: 80%;
+}
+.senator_tittle{
+  text-align: left;
+  color: #161119;
+  font-weight: 700;
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Roboto Regular",sans-serif;
+  margin-right: 20px;
+}
+.senator_ellipse{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  box-shadow: 0 6px 9px 0 rgba(70, 128, 194, 0.15);
+  z-index: 3;
+}
+.icon_senator{
+  width: 18px;
+  height: 18px;
+}
+.senator_mail{
+  border-radius: 20px;
+  box-shadow: 0 4px 13.5px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  color: #161119;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "RobotoL",sans-serif;
+  padding: 10px 10px 10px 40px;
+  position: relative;
+  right: 33px;
+  z-index: 2;
+}
+.senator_dis{
+  font-size: 14px;
+  display: inline-block;
+  font-family: "RobotoL",sans-serif;
+  color: #666666;
+  line-height: 1.78;
+}
+@media (max-width: 1023px) {
+  .about_content{
+    z-index: 1;
+    position: relative;
+    .logo_ind_header{
+      width: -webkit-fill-available;
+      width: -moz-available;
+      height: 240px;
+    }
+    .logo_division{
+      margin: 40px 0;
+      font-size: 52px;
+      line-height: 1.38;
+    }
+    .logo_dis{
+      font-size: 26px;
+      width: -webkit-fill-available;
+      width: -moz-available;
+    }
+  }
+  .border_top {
+    height: 20px;
+    margin-bottom: 40px;
+  }
+  .help_stream_body{
+    z-index: 1;
+    position: relative;
+
+      .help_stream_tittle{
+      font-size: 40px;
+    }
+    .help_stream_text{
+      font-size: 24px;
+      margin: 50px 0;
+      padding: 0 50px;
+      line-height: 1.75;
+    }
+  }
+  .social_ellipse {
+    width: 120px!important;
+    height: 120px!important;
+    margin-top: 40px;
+    span{
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .how_help{
+    z-index: 1;
+    position: relative;
+  }
+  .tittle_main_steps_help{
+    font-size: 64px;
+    margin: 40px 0 40px 0;
+  }
+  .steps_help{
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+  .steps_help_img {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    height: 550px;
+  }
+  .steps_help_tittle{
+    margin: 40px 0;
+    font-size: 64px;
+  }
+  .steps_help_text{
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 100px;
+  }
+  .help_stream_body_tittle{
+    font-size: 60px;
+    margin: 40px 0;
+  }
+  .senator{
+    justify-content: center!important;
+  }
+  .senator_img_bd{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    display: flex;
+    justify-content: center;
+  }
+  .senator_img {
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+  }
+  .senator_tittle{
+    order: 2;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    font-size: 64px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .senator_body {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    div:first-child{
+      justify-content: center!important;
+      margin: 40px 0;
+    }
+    div:last-child{
+      width: -webkit-fill-available;
+      width: -moz-available;
+      justify-content: center!important;
+      .senator_ellipse{
+        width: 120px;
+        height: 120px;
+        margin-left: 20px;
+        .icon_senator {
+          width: 64px;
+          height: 64px;
+        }
+      }
+      .senator_mail{
+        font-size: 50px;
+        padding: 40px 40px 40px 140px;
+        border-radius: 80px;
+        right: 130px;
+      }
+    }
+  }
+  .senator_dis{
+    width: -webkit-fill-available!important;
+    width: -moz-available!important;
+    font-size: 30px;
+    padding: 0 40px 0 40px;
+    text-align: center;
+  }
+  .help_stream_body{
+    .menu{
+      a{
+        font-size: 46px;
+        border: none;
+        margin: 0 30px 30px 0;
+      }
+      .active{
+        font-size: 50px;
+        border-bottom: 5px solid #ffce60;
+        color: black;
+        font-family: "Roboto Regular",sans-serif;
+      }
+    }
+  }
+}

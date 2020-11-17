@@ -1,0 +1,120 @@
+@import "helper.css";
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}
+//independent classes
+body {
+    background-image: url(/images/fons/fon-bot.jpg);
+    //background-image: url(https://img2.goodfon.com/original/1920x1200/2/c0/minimalizm-krug-psp.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+  position: relative;
+    //background-color: #05032f;
+    //background: linear-gradient(180deg, #020024 58%, #d76a02 83%, #f59907 100%);
+}
+.bg_body{
+  position: absolute;
+  top: 0;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.41);
+}
+.control-position{
+  width: 1350px;
+  align-items: center;
+  z-index: 10;
+}
+
+.tittle{
+  color: #ffffff;
+  font-size: 24px;
+  cursor: default;
+  text-align: center;
+  text-shadow: black 0 0 2px;
+}
+.input_text{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+}
+.input_button_success{
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px;
+  background-image: linear-gradient(to right,rgba(153,93,179,.7) 1%,rgba(44,155,219,.7));
+  border: none;
+  cursor: pointer;
+  color: #fffefc;
+}
+.input_button_failure{
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(205, 15, 6, 0.84);
+  border: none;
+  cursor: pointer;
+  color: #fffefc;
+}
+.card{
+  margin: 30px 0;
+  width: 310px;
+  background-color: rgba(232, 232, 232, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  //border: 1px solid #f59907;
+}
+.tittle_dop{
+  font-size: 20px;
+  color: #00AFF0;
+  text-align: center;
+  display: inline-block;
+  margin: 0 30px;
+  text-shadow: black 0 0 2px;
+
+}
+.tittle_card{
+  font-size: 18px;
+  color: #fefdfd;
+  padding-bottom: 5px;
+  cursor: default;
+  text-shadow: black 0 0 2px;
+
+}
+.p-s_card{
+  cursor: default;
+  font-size: 14px;
+  padding-bottom: 5px;
+  color: currentColor;
+}
+
+.main_base_bot{
+  margin: 50px 0;
+}
+.subscribers_body{
+  height: 210px;
+  overflow: auto;
+  .subscribers_list{
+    label{
+      padding: 5px;
+      font-size: 16px;
+      color: #010101;
+    }
+  }
+}
+
+.video_reject{
+  border: 1px solid darkslategrey;
+  margin: 0 10px 10px 0;
+  .tittle_reject{
+    font-size: 16px;
+    font-style: italic;
+  }
+}
